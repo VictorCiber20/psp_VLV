@@ -6,3 +6,5 @@ def conectar_db():
 def cerrar_conexion(conexion):
  if conexion:
  conexion.close()
+def opcion1():
+ conn=conectar_bd()
